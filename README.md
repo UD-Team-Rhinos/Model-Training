@@ -1,6 +1,6 @@
-# Environment Setup
+# Setup
 
-Set up container [here](https://github.com/dusty-nv/jetson-containers/tree/master)
+## Container Setup
 
 Install container tools (this is already completed if running on the TeamRhino Jetson)
 ```
@@ -13,11 +13,13 @@ Run container
 jetson-containers run $(autotag l4t-pytorch)
 ```
 
+Full instruction [here](https://github.com/dusty-nv/jetson-containers/tree/master)
 
-## For Ultralytics:
+## Run Model
 
+Once in the container clone the repo if not already cloned
 ```
-conda create -n ultralytics
-conda activate ultralytics
-conda install ultralytics
+git clone https://github.com/UD-Team-Rhinos/Model-Training.git
+cd Model-Training
 ```
+
