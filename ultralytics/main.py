@@ -2,4 +2,4 @@ from ultralytics import YOLO
 
 model = YOLO("yolo26n.pt")
 
-results = model.track("https://youtu.be/LNwODJXcvt4")
+model.track(source="https://youtu.be/LNwODJXcvt4", save=True, tracker="bytetrack.yaml")
