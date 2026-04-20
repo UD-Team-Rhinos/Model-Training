@@ -41,10 +41,10 @@ Now you should be able to clone this repo and run the file
 ## Notes for Docker:
 - to exit and stop: Ctrl + D
 - to exit and detach: Ctrl + P then Ctrl + Q
-- to get id or name of container run `docker ps -a` on host computer
-- to copy file from container to host computer run `docker cp <container_id_or_name>:/path/to/file /path/on/host`
-- to re-enter a running container `docker exec -it <container_id_or_name> /bin/bash`
-- to re-enter a stopped container `docker start -ai <contaier_id_or_name>` **USE THIS**
+- to get id or name of container run `sudo docker ps -a` on host computer
+- to copy file from container to host computer run `sudo docker cp <container_id_or_name>:/path/to/file /path/on/host`
+- to re-enter a running container `sudo docker exec -it <container_id_or_name> /bin/bash`
+- to re-enter a stopped container `sudo docker start -ai <contaier_id_or_name>` **USE THIS**
 
 
 
