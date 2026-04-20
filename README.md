@@ -47,6 +47,14 @@ Now you should be able to clone this repo and run the file
 - to re-enter a stopped container `sudo docker start -ai <contaier_id_or_name>` **USE THIS**
 
 
+## Running Code:
+
+### Enter the container:
+Enter the container named gallant_noether or start a new container
+```
+cd Model-Training
+git pull origin main
+```
 
 # Setup OLD
 # NOTE: THIS NO LONGER WORKS 
