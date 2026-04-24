@@ -6,7 +6,7 @@
 - find what container you need, will mostlikely be under the ML section in the README
 - Follow the instructions at the bottom of the file to set it up
 
-## Ultralytics container setup
+## Ultralytics container first time setup
 
 ```
 t=ultralytics/ultralytics:latest-jetson-jetpack6
@@ -41,15 +41,27 @@ install onnxruntime-gpi:
 pip install https://github.com/ultralytics/assets/releases/download/v0.0.0/onnxruntime_gpu-1.23.0-cp310-cp310-linux_aarch64.whl
 ```
 
-### Running Code:
-
-Enter the container named gallant_noether or start a new container
+Now clone the repo:
 ```
 git clone https://github.com/UD-Team-Rhinos/Model-Training.git
 cd Model-Training/ultralytics
 git pull origin main
-python3 main.py
 ```
+
+## Running Ultralytics Code:
+
+Enter the container by running:
+```
+sudo docker start -ai gallant_noether
+cd Model-Training/ultralytics
+```
+
+Now you can run the code by using the command
+```
+python3 <file.py>
+```
+
+
 
 
 ## Notes for Docker:
