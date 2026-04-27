@@ -1,0 +1,125 @@
+
+Benchmarks complete for C:\Users\patri\Github\Model-Training\ultralytics\runs\detect\rtdetr-l\weights\best.pt on african-wildlife.yaml at imgsz=640 (493.08s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
++----------------------------------------------------------------------------------------------------------+
+|      Format                  Status❔   Size (MB)   metrics/mAP50-95(B)   Inference time (ms/im)   FPS   |
++==========================================================================================================+
+| 1    PyTorch                 ✅         63.2        0.8259                13.43                    74.46 |
+| 2    TorchScript             ❎         123.0       -                     -                        -     |
+| 3    ONNX                    ❎         125.4       -                     -                        -     |
+| 4    OpenVINO                ❌         0.0         -                     -                        -     |
+| 5    TensorRT                ❌         0.0         -                     -                        -     |
+| 6    CoreML                  ❌         0.0         -                     -                        -     |
+| 7    TensorFlow SavedModel   ✅         321.7       0.0                   195.79                   5.11  |
+| 8    TensorFlow GraphDef     ✅         126.3       0.0                   168.78                   5.92  |
+| 9    TensorFlow Lite         ❌         0.0         -                     -                        -     |
+| 10   TensorFlow Edge TPU     ❌         0.0         -                     -                        -     |
+| 11   TensorFlow.js           ❌         0.0         -                     -                        -     |
+| 12   PaddlePaddle            ❌         0.0         -                     -                        -     |
+| 13   MNN                     ✅         122.9       0.0                   145.04                   6.89  |
+| 14   NCNN                    ❎         125.3       -                     -                        -     |
+| 15   IMX                     ❌         0.0         -                     -                        -     |
+| 16   RKNN                    ❌         0.0         -                     -                        -     |
+| 17   ExecuTorch              ❌         0.0         -                     -                        -     |
+| 18   Axelera AI              ❌         0.0         -                     -                        -     |
++----------------------------------------------------------------------------------------------------------+
+
+Benchmarks complete for C:\Users\patri\Github\Model-Training\ultralytics\runs\detect\yolo26n\weights\best.pt on african-wildlife.yaml at imgsz=640 (72.76s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
++-----------------------------------------------------------------------------------------------------------+
+|      Format                  Status❔   Size (MB)   metrics/mAP50-95(B)   Inference time (ms/im)   FPS    |
++===========================================================================================================+
+| 1    PyTorch                 ✅         5.1         0.8121                6.34                     157.68 |
+| 2    TorchScript             ✅         9.6         0.8069                3.82                     261.67 |
+| 3    ONNX                    ❎         9.4         -                     -                        -      |
+| 4    OpenVINO                ❌         0.0         -                     -                        -      |
+| 5    TensorRT                ❌         0.0         -                     -                        -      |
+| 6    CoreML                  ❌         0.0         -                     -                        -      |
+| 7    TensorFlow SavedModel   ✅         23.5        0.8068                16.08                    62.2   |
+| 8    TensorFlow GraphDef     ✅         9.4         0.8068                14.92                    67.0   |
+| 9    TensorFlow Lite         ❌         0.0         -                     -                        -      |
+| 10   TensorFlow Edge TPU     ❌         0.0         -                     -                        -      |
+| 11   TensorFlow.js           ❌         0.0         -                     -                        -      |
+| 12   PaddlePaddle            ❌         0.0         -                     -                        -      |
+| 13   MNN                     ✅         9.2         0.8068                12.31                    81.22  |
+| 14   NCNN                    ✅         9.3         0.8307                13.14                    76.1   |
+| 15   IMX                     ❌         0.0         -                     -                        -      |
+| 16   RKNN                    ❌         0.0         -                     -                        -      |
+| 17   ExecuTorch              ❌         0.0         -                     -                        -      |
+| 18   Axelera AI              ❌         0.0         -                     -                        -      |
++-----------------------------------------------------------------------------------------------------------+
+
+Benchmarks complete for C:\Users\patri\Github\Model-Training\ultralytics\runs\detect\yolo26s\weights\best.pt on african-wildlife.yaml at imgsz=640 (95.85s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
++-----------------------------------------------------------------------------------------------------------+
+|      Format                  Status❔   Size (MB)   metrics/mAP50-95(B)   Inference time (ms/im)   FPS    |
++===========================================================================================================+
+| 1    PyTorch                 ✅         19.4        0.8277                6.57                     152.14 |
+| 2    TorchScript             ✅         36.7        0.8264                4.57                     218.75 |
+| 3    ONNX                    ❎         36.4        -                     -                        -      |
+| 4    OpenVINO                ❌         0.0         -                     -                        -      |
+| 5    TensorRT                ❌         0.0         -                     -                        -      |
+| 6    CoreML                  ❌         0.0         -                     -                        -      |
+| 7    TensorFlow SavedModel   ✅         91.2        0.8264                25.87                    38.65  |
+| 8    TensorFlow GraphDef     ✅         36.4        0.8264                27.2                     36.77  |
+| 9    TensorFlow Lite         ❌         0.0         -                     -                        -      |
+| 10   TensorFlow Edge TPU     ❌         0.0         -                     -                        -      |
+| 11   TensorFlow.js           ❌         0.0         -                     -                        -      |
+| 12   PaddlePaddle            ❌         0.0         -                     -                        -      |
+| 13   MNN                     ✅         36.3        0.8264                36.62                    27.31  |
+| 14   NCNN                    ✅         36.3        0.838                 31.03                    32.23  |
+| 15   IMX                     ❌         0.0         -                     -                        -      |
+| 16   RKNN                    ❌         0.0         -                     -                        -      |
+| 17   ExecuTorch              ❌         0.0         -                     -                        -      |
+| 18   Axelera AI              ❌         0.0         -                     -                        -      |
++-----------------------------------------------------------------------------------------------------------+
+
+Benchmarks complete for C:\Users\patri\Github\Model-Training\ultralytics\runs\detect\yolo26m\weights\best.pt on african-wildlife.yaml at imgsz=640 (149.22s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
++-----------------------------------------------------------------------------------------------------------+
+|      Format                  Status❔   Size (MB)   metrics/mAP50-95(B)   Inference time (ms/im)   FPS    |
++===========================================================================================================+
+| 1    PyTorch                 ✅         42.0        0.8042                7.12                     140.44 |
+| 2    TorchScript             ✅         78.3        0.8001                5.79                     172.54 |
+| 3    ONNX                    ❎         77.9        -                     -                        -      |
+| 4    OpenVINO                ❌         0.0         -                     -                        -      |
+| 5    TensorRT                ❌         0.0         -                     -                        -      |
+| 6    CoreML                  ❌         0.0         -                     -                        -      |
+| 7    TensorFlow SavedModel   ✅         195.0       0.8002                55.53                    18.01  |
+| 8    TensorFlow GraphDef     ✅         78.0        0.8002                59.72                    16.74  |
+| 9    TensorFlow Lite         ❌         0.0         -                     -                        -      |
+| 10   TensorFlow Edge TPU     ❌         0.0         -                     -                        -      |
+| 11   TensorFlow.js           ❌         0.0         -                     -                        -      |
+| 12   PaddlePaddle            ❌         0.0         -                     -                        -      |
+| 13   MNN                     ✅         77.8        0.8002                102.64                   9.74   |
+| 14   NCNN                    ✅         77.8        0.8155                82.86                    12.07  |
+| 15   IMX                     ❌         0.0         -                     -                        -      |
+| 16   RKNN                    ❌         0.0         -                     -                        -      |
+| 17   ExecuTorch              ❌         0.0         -                     -                        -      |
+| 18   Axelera AI              ❌         0.0         -                     -                        -      |
++-----------------------------------------------------------------------------------------------------------+
+
+Benchmarks complete for C:\Users\patri\Github\Model-Training\ultralytics\runs\detect\yolo26l\weights\best.pt on african-wildlife.yaml at imgsz=640 (187.70s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
++-----------------------------------------------------------------------------------------------------------+
+|      Format                  Status❔   Size (MB)   metrics/mAP50-95(B)   Inference time (ms/im)   FPS    |
++===========================================================================================================+
+| 1    PyTorch                 ✅         50.5        0.8267                8.75                     114.23 |
+| 2    TorchScript             ✅         95.3        0.8196                8.23                     121.53 |
+| 3    ONNX                    ❎         94.8        -                     -                        -      |
+| 4    OpenVINO                ❌         0.0         -                     -                        -      |
+| 5    TensorRT                ❌         0.0         -                     -                        -      |
+| 6    CoreML                  ❌         0.0         -                     -                        -      |
+| 7    TensorFlow SavedModel   ✅         237.1       0.82                  73.05                    13.69  |
+| 8    TensorFlow GraphDef     ✅         94.8        0.82                  79.34                    12.6   |
+| 9    TensorFlow Lite         ❌         0.0         -                     -                        -      |
+| 10   TensorFlow Edge TPU     ❌         0.0         -                     -                        -      |
+| 11   TensorFlow.js           ❌         0.0         -                     -                        -      |
+| 12   PaddlePaddle            ❌         0.0         -                     -                        -      |
+| 13   MNN                     ✅         94.6        0.82                  127.93                   7.82   |
+| 14   NCNN                    ✅         94.7        0.8302                100.89                   9.91   |
+| 15   IMX                     ❌         0.0         -                     -                        -      |
+| 16   RKNN                    ❌         0.0         -                     -                        -      |
+| 17   ExecuTorch              ❌         0.0         -                     -                        -      |
+| 18   Axelera AI              ❌         0.0         -                     -                        -      |
++-----------------------------------------------------------------------------------------------------------+

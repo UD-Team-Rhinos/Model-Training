@@ -1,3 +1,3 @@
 /ultralytics/runs/detect/rtdetr-l/weights
 /ultralytics/runs/detect/rtdetr-x/weights
-/ultralytics/*.pt   
+/ultralytics/*.pt
