@@ -1,3 +1,6 @@
 /ultralytics/runs/detect/rtdetr-l/weights
 /ultralytics/runs/detect/rtdetr-x/weights
-/ultralytics/*.pt
+*.pt
+*.onnx
+*.engine
+!yolov8s.engine
