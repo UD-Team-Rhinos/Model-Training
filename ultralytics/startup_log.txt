@@ -1,0 +1,35 @@
+==============================
+YOLO startup attempt
+Time: Thu May 14 10:40:54 AM EDT 2026
+User: teamrhino
+Current directory: /home/teamrhino
+DISPLAY: :0
+Python: /usr/bin/python3
+Python version:
+Python 3.10.12
+Waiting for desktop/camera...
+After setup:
+Current directory: /home/teamrhino/Model-Training/ultralytics
+DISPLAY: :0
+XAUTHORITY: /home/teamhnj/.Xauthority
+LD_LIBRARY_PATH: /usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu/tegra:/usr/lib/aarch64-linux-gnu:
+Video devices:
+crw-rw----+ 1 root video 81, 0 May 14 10:40 /dev/video0
+crw-rw----+ 1 root video 81, 1 May 14 10:40 /dev/video1
+Testing Python imports...
+cv2: 4.11.0
+torch: 2.10.0
+cuda available: True
+ultralytics imported
+Starting main.py...
+WARNING ⚠️ Unable to automatically guess model task, assuming 'task=detect'. Explicitly define task for your model, i.e. 'task=detect', 'segment', 'classify','pose' or 'obb'.
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+Checking camera index 0...
+Using camera index 0
+Loading /home/teamrhino/Model-Training/ultralytics/yolov8m.engine for TensorRT inference...
+[05/14/2026-10:41:34] [TRT] [I] Loaded engine size: 52 MiB
+[05/14/2026-10:41:34] [TRT] [W] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+[05/14/2026-10:41:34] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +31, now: CPU 0, GPU 80 (MiB)
+main.py exited
+Press Enter to close
