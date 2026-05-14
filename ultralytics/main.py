@@ -1,5 +1,5 @@
 from ultralytics import YOLO
 
-model = YOLO("rtdetr-l.pt")
+model = YOLO("yolov8n.pt")
 
-model.track(source="https://www.youtube.com/watch?v=OwhFk1go2nk", show=True, tracker="bytetrack.yaml")
+model.track(source=0, device=0, show=True, tracker="bytetrack.yaml", persist=True, imgsz=1080, classes=[0])
