@@ -7,7 +7,7 @@ def find_working_camera(camera_indexes=(0, 1), attempts_per_camera=5):
     for index in camera_indexes:
         print(f"Checking camera index {index}...")
 
-        cap = cv2.VideoCapture(index, cv2.CAP_V4L2)
+        cap = cv2.VideoCapture(index)
 
         cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
         cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
